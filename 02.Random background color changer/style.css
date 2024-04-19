@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  height: 100dvb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.color__screen {
+  width: 220px;
+  height: 40vh;
+}
+.changer__btn {
+  padding: 0.7rem 1rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #222;
+  transition: 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.changer__btn:hover {
+  border: 1px solid #222;
+  background-color: gainsboro;
+  /* color: #fff; */
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.changer__btn:active {
+  scale: 0.9;
+}
+
+.color__code {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
