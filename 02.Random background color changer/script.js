@@ -1,6 +1,6 @@
 const colorScreen = document.querySelector('.color__screen');
 const btn = document.querySelector('.changer__btn');
-const colorCodeText = document.querySelector('.color__code');
+const colorCodeText = document.querySelector('.color__text');
 
 const getColor = () => {
   const randomNumber = Math.floor(Math.random() * 1677215);
