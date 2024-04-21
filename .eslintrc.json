@@ -13,6 +13,7 @@
     "no-console": "error",
     "array-callback-return": "off",
     "no-plusplus": "off",
+    "prefer-const": "off",
     "no-var": "error",
     "camelcase": "error",
     "no-empty": "error",
